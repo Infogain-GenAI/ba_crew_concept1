@@ -2,7 +2,7 @@
 name = "ba-crew-concept1"
 version = "0.1.0"
 description = ""
-authors = ["h.singh@infogain.com"]
+authors = ["Harpreet Singh <h.singh@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
