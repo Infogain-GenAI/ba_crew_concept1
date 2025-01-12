@@ -118,7 +118,6 @@ class BaCrewConcept1():
 			verbose=True,
 			process=Process.sequential,
 			memory=True,
-			manager_llm=self.llm,
 			knowledge_sources=[self.pdf_source]
 	)
 
