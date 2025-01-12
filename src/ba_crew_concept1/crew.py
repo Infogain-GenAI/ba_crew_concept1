@@ -101,6 +101,7 @@ class BaCrewConcept1():
 		verbose=True,
 		allow_delegation=False,
 		llm=self.llm,
+		knowledge_sources=[self.pdf_source]
 	)
 
 	@task
