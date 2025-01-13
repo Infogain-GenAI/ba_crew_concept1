@@ -85,7 +85,6 @@ class BaCrewConcept1():
 	load_dotenv()
 
 	openai.api_key = os.getenv("OPENAI_API_KEY")
-	#openai.api_key = "sk-proj-fIiwrQwmmSoQKYR2DvhKT3BlbkFJ91eyB8pmpaEJ0LGiwV8O"
 
 	# LLM with a temperature of 0 to ensure deterministic outputs
 	llm = LLM(model="gpt-4o-mini", api_key=os.getenv("OPENAI_API_KEY"), temperature=0.8)
